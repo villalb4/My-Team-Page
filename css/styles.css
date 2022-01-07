@@ -37,8 +37,9 @@ h2{
 main {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  row-gap: 65px;
+  row-gap: 132px;
   column-gap: 67px;
+  margin-bottom: 220px;
 }
 img {
   width: 237px;
@@ -52,4 +53,23 @@ img {
   writing-mode: vertical-lr;
   font-family: "PT Serif";
   font-size: 12px;
+}
+
+
+#saba, #griff {
+  position: relative;
+  top: 100px;
+}
+
+
+footer {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #A9A9A9;
+  font-size: 14px;
+}
+.villalba {
+  color: #A9A9A9;
+  font-weight: 600;
+  text-decoration: none;
 }
