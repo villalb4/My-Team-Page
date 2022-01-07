@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot](desing/img1.jpeg)
+![screenshot](/design/img1.jpeg)
 
 
 ## Contact
