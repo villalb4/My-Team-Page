@@ -105,6 +105,12 @@ footer {
     line-height: 21px;
     width: 333px;
   }
+  h3 {
+    font-size: 14px;
+  }
+  .job {
+    font-size: 10px;
+  }
 
   main {
     grid-template-columns: 1fr 1fr;
