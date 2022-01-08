@@ -73,3 +73,47 @@ footer {
   font-weight: 600;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1010px) {
+  header {
+    flex-direction: column;
+    margin-top: 70px  ;
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 180px;
+  }
+
+  #saba, #griff {
+    top: 0px;
+  }
+  #saba, #skylah, #stan {
+    position: relative;
+    top: 90px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    margin-bottom: 40px;
+  }
+  .descript {
+    font-size: 14px;
+    line-height: 21px;
+    width: 333px;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 64px;
+    justify-content: space-between;
+  }
+  img {
+    width: 138.72px;
+    margin: 0 6.28px 10px 0;
+  }
+}
